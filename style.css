@@ -97,20 +97,6 @@ body {
 .nav-logo-accent { color: var(--accent-orange); }
 .nav-links {
     display: flex;
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 260px;
-    height: 100vh;
-    background: var(--bg-panel);
-    border-left: 1px solid var(--line);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    transition: right 0.3s ease-in-out;
-    z-index: 100;
-    box-shadow: -10px 0 30px rgba(0,0,0,0.5);
            }
 
 .nav-links a {
