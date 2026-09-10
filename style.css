@@ -97,6 +97,8 @@ body {
 .nav-logo-accent { color: var(--accent-orange); }
 .nav-links {
     display: flex;
+   gap: 16px;
+  align-items: center;
            }
 
 .nav-links a {
