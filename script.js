@@ -24,6 +24,23 @@ tiltCards.forEach(card => {
   card.addEventListener('mouseleave', () => { card.style.transform = ''; });
 });
 
+ // Toggle Script (Place right before closing </body>) 
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('active');
+    toggle.classList.toggle('active');
+  });
+
+  // Close menu when clicking a link on mobile
+  links.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      links.classList.remove('active');
+      toggle.classList.remove('active');
+    });
+  });
+
 // =====================
 // SKILL BARS: replay fill when scrolled into view
 // =====================
