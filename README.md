@@ -9,9 +9,9 @@ Built with clean and modern frontend technologies, this portfolio serves as a ce
 🛠️ Tech Stack
 
 This project is built using:
-*   **HTML5** (38.9%) - For structural markup and semantic layout.
-*   **CSS3** (46.7%) - For styling, responsiveness, and visual design.
-*   **JavaScript** (14.4%) - For interactive elements, animations, and functionality.
+*   **HTML5** (40.9%) - For structural markup and semantic layout.
+*   **CSS3** (45.4%) - For styling, responsiveness, and visual design.
+*   **JavaScript** (13.9%) - For interactive elements, animations, and functionality.
 
 ---
 
